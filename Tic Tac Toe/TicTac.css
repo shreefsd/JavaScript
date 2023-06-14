@@ -1,0 +1,27 @@
+*{
+    background-color: aqua;
+}
+.grid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    background-color: bisque;
+    grid-template-columns: repeat(3, 70px);
+    gap:10px;
+}
+.grid button{
+    height: 70px;
+    width: 70px;
+    font-size: 16px;
+    background-color: yellowgreen;
+}
+h1{
+    height: 100%;
+    width: 30%;
+    background-color: blueviolet;
+}
+.grid button:hover{
+    background-color: coral;
+}
